@@ -8,7 +8,7 @@ const Navbar = () => {
             </div>
 
             <div>
-                <ul className="flex items-center justify-between flex-nowrap gap-6 space-x-4">
+                <ul className="flex items-center justify-between flex-nowrap gap-6 space-x-4 max-w-full">
                     <li className="cursor-pointer text-lg font-semibold text-gray-800 transition ease-in-out delay-75 bg-inherit hover:bg-slate500 duration300">
                         <a href="#home" className="p-3 rounded-xl hover:animate-pulse">Home</a>
                     </li>

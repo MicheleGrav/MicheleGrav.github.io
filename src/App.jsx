@@ -7,7 +7,7 @@ function App() {
     <div>
       <Background />
 
-      <div className='w-full mx-auto'>
+      <div className='max-w-full max-h-full mx-auto'>
         <Navbar />
         <Home />
       </div>
