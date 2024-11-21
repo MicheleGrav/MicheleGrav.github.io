@@ -8,9 +8,10 @@ export default {
     extend: {
 
       animation: {
-        moveGradient1: 'moveGradient1 40s infinite alternate ease-in-out', /* animate.moveGradient1 */
-        moveGradient2: 'moveGradient2 40s infinite alternate ease-in-out', /* animate.moveGradient1 */
-        wave: 'wave 2.5s infinite',
+        moveGradient1: 'moveGradient1 40s infinite alternate ease-in-out', /* magenta gradient animation */
+        moveGradient2: 'moveGradient2 40s infinite alternate ease-in-out', /* cyan gradient animation */
+        wave: 'wave 2.5s infinite', /* hand wave animation */
+        fadeIn: 'fadeIn 1s ease-in forwards', /* fade in animation */
       },
 
       keyframes: {
@@ -41,6 +42,11 @@ export default {
           '50%': { transform: 'rotate(10.0deg)' },
           '60%': { transform: 'rotate( 0.0deg)' },
           '100%': { transform: 'rotate( 0.0deg)' },
+        },
+
+        fadeIn: {
+          '0%': { opacity: 0 },
+          '100%': { opacity: 1 },
         }
       }
     },

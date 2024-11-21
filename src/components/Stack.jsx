@@ -1,16 +1,28 @@
 const Stack = () => {
     return (
-        <div>
-            <ul>
-                <li>React</li>
-                <li>TailwindCSS</li>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>Python</li>
-                <li>Java</li>
-                <li>SQL</li>
-            </ul>
+        <div className="flex justify-around mt-10 animate-pulse">
+            <div className="flex flex-col">
+                <h2 className="text-3xl">Frameworks</h2>
+                <ul>
+                    <li>React</li>
+                    <li>TailwindCSS</li>
+                    <li>Flutter</li>
+                    <li>React Native</li>
+                </ul>
+            </div>
+
+            <div className="flex flex-col">
+                <h2 className="text-3xl">Languages</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>Python</li>
+                    <li>Dart</li>
+                    <li>Java</li>
+                    <li>C</li>
+                </ul>
+            </div>
         </div>
     );
 };
