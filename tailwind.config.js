@@ -8,12 +8,13 @@ export default {
     extend: {
 
       animation: {
-        moveGradient1: 'moveGradient1 40s infinite alternate ease-in-out',
-        moveGradient2: 'moveGradient2 40s infinite alternate ease-in-out',
+        moveGradient1: 'moveGradient1 40s infinite alternate ease-in-out', /* animate.moveGradient1 */
+        moveGradient2: 'moveGradient2 40s infinite alternate ease-in-out', /* animate.moveGradient1 */
         wave: 'wave 2.5s infinite',
       },
 
       keyframes: {
+        /* Animation keyframes for magenta gradient */
         moveGradient1: {
           '0%': { transform: 'translate(0, 0)' },
           '25%': { transform: 'translate(-30vw, -30vh)' },
@@ -22,6 +23,7 @@ export default {
           '100%': { transform: 'translate(0, 0)' },
         },
 
+        /* Animation keyframes for magenta gradient */
         moveGradient2: {
           '0%': { transform: 'translate(0, 0)' },
           '25%': { transform: 'translate(40vw, 10vh)' },
