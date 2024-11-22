@@ -1,6 +1,6 @@
 const Stack = () => {
     return (
-        <div className="flex justify-around mt-10 animate-pulse">
+        <div className="flex justify-around mt-10">
             <div className="flex flex-col">
                 <h2 className="text-3xl">Frameworks</h2>
                 <ul>
