@@ -21,7 +21,7 @@ const ThemeToggleButton = () => {
   return (
     <button
       onClick={toggleDarkMode}
-      className="fixed top-4 left-4 p-2 rounded-full shadow-md transition-all duration-300 border-black dark:border-white"
+      className="fixed top-4 left-4 p-2 rounded-full shadow-md dark:shadow-white transition-all duration-300 border-black dark:border-white"
       aria-label="Toggle Theme"
     >
       <svg
