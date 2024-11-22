@@ -2,6 +2,7 @@ import Navbar from './components/Navbar'
 import Background from './components/Background'
 import Home from './components/Home'
 import Stack from './components/Stack'
+import './index.css'
 
 function App() {
   return (
