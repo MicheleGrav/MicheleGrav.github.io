@@ -27,7 +27,7 @@ const ThemeToggleButton = () => {
       <svg
         width="24px"
         height="24px"
-        viewBox="0 0 32 32"
+        viewBox="3 3 25 25"
         xmlns="http://www.w3.org/2000/svg"
         className={`fill-current text-black dark:text-white transition-all duration-300`}
       >
