@@ -7,6 +7,10 @@ export default {
   theme: {
     extend: {
 
+      transitionProperty: {
+        'width-left': 'width, left',
+      },
+
       animation: {
         moveGradient1: 'moveGradient1 40s infinite alternate ease-in-out', /* magenta gradient animation */
         moveGradient2: 'moveGradient2 40s infinite alternate ease-in-out', /* cyan gradient animation */
