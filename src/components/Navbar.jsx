@@ -1,11 +1,16 @@
 import { DiTerminalBadge } from "react-icons/di";
+import ThemeToggleButton from "./ThemeToggleButton";
 
 const Navbar = () => {
     return (
         <nav className="mb-10 flex justify-between items-center p-3 bg-[rgba(255,255,255,0.2)] backdrop-blur-lg shadow-lg">
-            <div className="flex items-center">
+            {/* <div className="flex items-center">
                 <DiTerminalBadge className="h-11 w-11 hover:animate-pulse"/> 
+            </div>*/}
+            <div>
+                <ThemeToggleButton />
             </div>
+            
 
             <div>
                 <ul className="flex items-center justify-between gap-8 mx-auto max-w-full">
