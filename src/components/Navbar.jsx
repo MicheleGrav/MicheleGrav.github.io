@@ -3,10 +3,12 @@ import ThemeToggleButton from "./ThemeToggleButton";
 
 const Navbar = () => {
     return (
-        <nav id="navbar" className="mb-10 flex justify-between items-center p-3 bg-[rgba(255,255,255,0.2)] dark:bg-[rgba(63,63,63,0.51)] backdrop-blur-lg shadow-lg">
-            {/* <div className="flex items-center">
+        <nav id="navbar" className="mb-10 flex justify-between items-center p-3 bg-[rgba(255,255,255,0.2)] dark:bg-[rgba(63,63,63,0.51)] backdrop-blur-lg shadow-md">
+            { /* Previous logo / theme switcher */
+            /* <div className="flex items-center">
                 <DiTerminalBadge className="h-11 w-11 hover:animate-pulse"/> 
-            </div>*/}
+            </div>*/
+            }
             <div>
                 <ThemeToggleButton />
             </div>
