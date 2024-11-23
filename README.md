@@ -42,7 +42,7 @@ This section highlights the technologies I've learned and approached either theo
 ### Gallery/Edu
 The website's Gallery/Edu section is the third element of the page upon scrolling.
 
-- W I P -
+-W I P-
 
 ### Contact
 Contact section

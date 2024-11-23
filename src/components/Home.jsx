@@ -23,8 +23,8 @@ const Home = () => {
                     {/*<p className=' self-end text-nowrap dark:text-white text-sm sm:text-xl transition-all duration-300'>IT Student</p>*/}
                     <div className='text-right text-nowrap dark:text-white text-xs sm:text-xl transition-all duration-300 overflow-hidden h-[1.2em] sm:h-[1.275em]'> 
                         <div className="animate-scrollTextSmall sm:animate-scrollTextMedium">
-                            <p>Computer Engineering Student</p>
-                            <p>Studente di Ingegneria Informatica</p>
+                            <p>Computer Engineering Stud.</p>
+                            <p>Stud. di Ingegneria Informatica</p>
                         </div>
                     </div>
                 </div>
