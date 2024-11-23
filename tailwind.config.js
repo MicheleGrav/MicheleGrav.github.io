@@ -18,8 +18,8 @@ export default {
         wave: 'wave 2.5s infinite', /* hand wave animation */
         fadeIn: 'fadeIn 1s ease-in forwards', /* fade in animation */
         blobs: 'blobs 10s ease-in-out infinite alternate',
-        scrollTextSmall: "scrollTextSmall 20s linear infinite",
-        scrollTextMedium: "scrollTextMedium 20s linear infinite",
+        scrollTextSmall: "scrollTextSmall 10s linear infinite",
+        scrollTextMedium: "scrollTextMedium 10s linear infinite",
       },
 
       keyframes: {
@@ -73,25 +73,17 @@ export default {
 
         scrollTextSmall: {
           "0%": { transform: "translateY(0)" },
-          "20%": { transform: "translateY(0)" },
-          "30%": { transform: "translateY(-1.5em)" },
+          "50%": { transform: "translateY(0)" },
           "60%": { transform: "translateY(-1.5em)" },
-          "70%": { transform: "translateY(-2.75em)" },
-          "80%": { transform: "translateY(-2.75em)" },
-          "90%": { transform: "translateY(-4.0em)" },
-          "95%": { transform: "translateY(-4.0em)" },
+          "90%": { transform: "translateY(-1.5em)" },
           "100%": { transform: "translateY(0)" },
         },
 
         scrollTextMedium: {
           "0%": { transform: "translateY(0)" },
-          "20%": { transform: "translateY(0)" },
-          "25%": { transform: "translateY(-1.5em)" },
-          "45%": { transform: "translateY(-1.5em)" },
-          "50%": { transform: "translateY(-3em)" },
-          "70%": { transform: "translateY(-3em)" },
-          "75%": { transform: "translateY(-4.5em)" },
-          "95%": { transform: "translateY(-4.5em)" },
+          "50%": { transform: "translateY(0)" },
+          "60%": { transform: "translateY(-1.5em)" },
+          "90%": { transform: "translateY(-1.5em)" },
           "100%": { transform: "translateY(0)" },
         },
       }
