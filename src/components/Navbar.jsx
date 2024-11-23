@@ -18,8 +18,9 @@ const Navbar = () => {
                 <ul className="flex items-center justify-around gap-5 max-w-full">
                     <li className="cursor-pointer font-semibold text-black transition ease-in-out delay-75 bg-inherit hover:bg-slate500 duration300">
                         <a href="#stack"className="block sm:hidden text-sm text-nowrap md:text-lg font-semibold text-black dark:text-white uppercase tracking-wide relative inline-block p-3 
-                        after:content-[''] after:absolute after:bottom-0 after:right-[5%] after:w-[90%] after:h-[2px] after:bg-black dark:after:bg-white transition-colors duration-700 ease-in-out"
-                        onClick={(e) => e.currentTarget.blur()}>Stack</a>
+                        after:content-[''] after:absolute after:bottom-0 after:right-[5%] after:w-[90%] after:h-[2px] after:bg-black dark:after:bg-white transition-colors duration-700 ease-in-out
+                        after:transition-all after:duration-300 after:ease-in-out
+                        hover:after:w-0 hover:after:left-[5%]">Stack</a>
                         <a href="" className="hidden sm:block text-sm text-nowrap sm:text-lg font-semibold text-black dark:text-white uppercase tracking-wide relative inline-block p-3 
                         after:content-[''] after:absolute after:bottom-0 after:right-[5%] after:w-[90%] after:h-[2px] after:bg-black dark:after:bg-white transition-colors duration-700 ease-in-out
                         after:transition-all after:duration-300 after:ease-in-out
