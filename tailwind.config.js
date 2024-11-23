@@ -8,6 +8,10 @@ export default {
   theme: {
     extend: {
 
+      screens: {
+        'below-sm': { 'max': '639px' },
+      },
+
       transitionProperty: {
         'width-left': 'width, left',
       },
