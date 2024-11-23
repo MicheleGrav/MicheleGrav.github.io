@@ -17,7 +17,7 @@ const Home = () => {
                 </div>
                 <div className='flex flex-col align-center justify-center gap-3'>
                     <div className="flex flex-row items-center justify-center gap-3">
-                        <span className='animate-wave text-3xl'>👋</span>
+                        <span className='animate-wave origin-[70%_70%] text-3xl'>👋</span>
                         <h1 className='font-bold text-xl dark:text-white transition-all duration-300'>Hi, it's Michele</h1>
                     </div>
                     <p className='self-end dark:text-white transition-all duration-300'>IT student</p>
