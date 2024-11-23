@@ -20,6 +20,9 @@ export default {
         blobs: 'blobs 10s ease-in-out infinite alternate',
         scrollTextSmall: "scrollTextSmall 10s linear infinite",
         scrollTextMedium: "scrollTextMedium 10s linear infinite",
+        spinShadowDark: "spinShadowDark 0.25s ease-in-out",
+        spinShadowLight: "spinShadowLight 0.5s ease-in-out",
+        draw: 'draw 2s ease-in-out forwards',
       },
 
       keyframes: {
@@ -85,6 +88,47 @@ export default {
           "60%": { transform: "translateY(-1.5em)" },
           "90%": { transform: "translateY(-1.5em)" },
           "100%": { transform: "translateY(0)" },
+        },
+
+        spinShadowDark: {
+          '0%': {
+            boxShadow: '0px 5px 5px rgba(0, 0, 0, 0.5)', // Start shadow to the right
+          },
+          '25%': {
+            boxShadow: '-5px 0px 5px rgba(0, 0, 0, 0.5)', // Shadow moves down
+          },
+          '50%': {
+            boxShadow: '0px -5px 5px rgba(192, 192, 192, 0.5)', // Shadow to the left
+          },
+          '75%': {
+            boxShadow: '5px 0px 5px rgba(255, 255, 255, 0.35)', // Shadow moves up
+          },
+          '100%': {
+            boxShadow: '0px 5px 5px rgba(255, 255, 255, 0.25)', // Back to original position
+          },
+        },
+
+        spinShadowLight: {
+          '0%': {
+            boxShadow: '10px 0 15px rgba(255, 255, 255, 0.5)', // Start shadow to the right
+          },
+          '25%': {
+            boxShadow: '0px 10px 15px rgba(255, 255, 255, 0.5)', // Shadow moves down
+          },
+          '50%': {
+            boxShadow: '-10px 0 15px rgba(255, 255, 255, 0.5)', // Shadow to the left
+          },
+          '75%': {
+            boxShadow: '0px -10px 15px rgba(255, 255, 255, 0.5)', // Shadow moves up
+          },
+          '100%': {
+            boxShadow: '10px 0 15px rgba(255, 255, 255, 0.5)', // Back to original position
+          },
+        },
+
+        draw: {
+          from: { 'stroke-dasharray': '100', 'stroke-dashoffset': '100' },
+          to: { 'stroke-dasharray': '100', 'stroke-dashoffset': '0' },
         },
       }
     },
