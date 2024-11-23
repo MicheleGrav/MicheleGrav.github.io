@@ -9,7 +9,7 @@ function App() {
     <div>
       <Background />
 
-      <div className='max-w-full max-h-full mx-auto'>
+      <div className='max-w-full max-h-full mx-auto overflow-x-hidden'>
         <Navbar />
         <Home />
         <Stack />
