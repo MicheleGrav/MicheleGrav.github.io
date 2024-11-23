@@ -4,8 +4,6 @@ Github repository containing all source files and assets for my personal portfol
 
 Website hosted at [this link](https://michelegrav.github.io/)
 
----
-
 <h2>Technologies used</h2>
 
 <ul>
@@ -48,6 +46,3 @@ The website's Gallery/Edu section is the third element of the page upon scrollin
 
 ### Contact
 Contact section
-
----
-
