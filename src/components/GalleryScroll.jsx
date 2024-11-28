@@ -8,7 +8,7 @@ const GalleryScroll = ({ images, className }) => {
   const { scrollYProgress } = useScroll(); // Tracks global page scrolling
 
   const translateFirst = useTransform(scrollYProgress, [0, 1], [0, -200]);
-  const translateSecond = useTransform(scrollYProgress, [0, 1], [0, -100]);
+  const translateSecond = useTransform(scrollYProgress, [0, 1], [0, -50]);
   const translateThird = useTransform(scrollYProgress, [0, 1], [0, -200]);
 
   const third = Math.ceil(images.length / 3);
@@ -63,7 +63,7 @@ const GalleryScroll = ({ images, className }) => {
   );
 };
 
-ParallaxScroll.propTypes = {
+GalleryScroll.propTypes = {
   images: PropTypes.arrayOf(PropTypes.string).isRequired,
   className: PropTypes.string,
 };
