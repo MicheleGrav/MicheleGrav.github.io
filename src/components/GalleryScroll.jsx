@@ -10,7 +10,7 @@ const GalleryScroll = ({ images, className }) => {
 
   const translateFirst = useTransform(scrollYProgress, [0, 1], [0, -200]);
   const translateSecond = useTransform(scrollYProgress, [0, 1], [0, -50]);
-  const translateThird = useTransform(scrollYProgress, [0, 1], [0, -200]);
+  const translateThird = useTransform(scrollYProgress, [0, 1], [0, -100]);
 
   const third = Math.ceil(images.length / 3);
 
@@ -20,7 +20,7 @@ const GalleryScroll = ({ images, className }) => {
 
   return (
     <div
-      className={`mt-10 place-self-center items-start w-full ${className} overflow-y-hidden bg-[rgba(255,255,255,0.2)] dark:bg-[rgba(63,63,63,0.51)] backdrop-blur-lg shadow-lg shadow-black/50 rounded-3xl max-w-[80%] max-h-[200vh]`}
+      className={`mt-10 place-self-center items-start w-full ${className} overflow-y-hidden max-h-[200vh]`}
       ref={containerRef}
     >
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-start max-w-5xl mx-auto gap-5 py-40 px-0">

@@ -26,7 +26,7 @@ const ThemeToggleButton = () => {
                  sm:hover:shadow-[0_0_15px_rgba(0,0,0,0.5)] 
                  sm:dark:hover:shadow-[0_0_15px_rgba(255,255,255,0.5)] 
                  transition-shadow
-                 border"
+                 "
       aria-label="Toggle Theme"
     >
       <svg

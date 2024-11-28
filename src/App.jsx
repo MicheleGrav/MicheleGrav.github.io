@@ -33,6 +33,9 @@ function App() {
         <Navbar />
         <Home />
         <Stack />
+        <br/>
+        <hr className='border border-black dark:border-white length w-[90%] place-self-center'></hr>
+        {/*<hr class="w-[85%] mx-auto h-1 bg-gradient-to-r from-blue-500/25 via-purple-500/25 to-pink-500/25 dark:from-pink-500/25 dark:via-purple-500/25 dark:to-blue-500/25 animate-gradientShift border-none rounded-full" />*/}
 
         <div className="flex justify-center text-3xl items-center px-4 mt-10">
           <GalleryFlip words={words} />

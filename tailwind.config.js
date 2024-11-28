@@ -27,6 +27,7 @@ export default {
         spinShadowDark: "spinShadowDark 0.25s ease-in-out",
         spinShadowLight: "spinShadowLight 0.5s ease-in-out",
         draw: 'draw 2s ease-in-out forwards',
+        gradientShift: 'gradient-shift 5s ease infinite',
       },
 
       keyframes: {
@@ -134,6 +135,12 @@ export default {
           from: { 'stroke-dasharray': '100', 'stroke-dashoffset': '100' },
           to: { 'stroke-dasharray': '100', 'stroke-dashoffset': '0' },
         },
+
+        gradientShift: {
+          '0%': { backgroundPosition: '0% 50%' },
+          '50%': { backgroundPosition: '100% 50%' },
+          '100%': { backgroundPosition: '0% 50%' },
+        }
       }
     },
   },

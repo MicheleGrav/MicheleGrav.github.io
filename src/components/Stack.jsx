@@ -1,6 +1,6 @@
 const Stack = () => {
     return (
-        <div id="stack" className="flex justify-around mt-10">
+        <div id="stack" className="flex justify-around mt-10 mb-10">
             <div className="flex flex-col dark:text-white transition-all duration-300 gap-5">
                 <h2 className="text-3xl">Frameworks</h2>
                 <ul>
