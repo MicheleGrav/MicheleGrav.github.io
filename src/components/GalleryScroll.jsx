@@ -27,7 +27,7 @@ const GalleryScroll = ({ images, className }) => {
         <div className="grid gap-10">
           {firstPart.map((el, idx) => (
             <motion.div style={{ y: translateFirst }} key={`grid-1-${idx}`}>
-              <PinContainer href={el} title="Image Title" className="h-80 w-full">
+              <PinContainer href={el} title="Column 1" className="h-80 w-full">
                 <div className="flex basis-full flex-col p-4 tracking-tight sm:basis-1/2 w-[20rem] h-[20rem]">
                   <img
                     src={el}
@@ -42,7 +42,7 @@ const GalleryScroll = ({ images, className }) => {
         <div className="grid gap-10">
           {secondPart.map((el, idx) => (
             <motion.div style={{ y: translateSecond }} key={`grid-2-${idx}`}>
-              <PinContainer href={el} title="Image Title" className="h-80 w-full">
+              <PinContainer href={el} title="Column 2" className="h-80 w-full">
                 <div className="flex basis-full flex-col p-4 tracking-tight sm:basis-1/2 w-[20rem] h-[20rem]">
                   <img
                     src={el}
